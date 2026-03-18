@@ -1,0 +1,94 @@
+{
+  "navbar": {
+    "accueil": "HOME",
+    "produits": "PRODUCTS",
+    "references": "REFERENCES",
+    "contact": "CONTACT",
+    "quote": "FREE QUOTE"
+  },
+  "hero": {
+    "tagline_part1": "Leader in the ",
+    "tagline_part2": "DESIGN",
+    "tagline_part3": " and ",
+    "tagline_part4": "MANUFACTURING",
+    "tagline_part5": " of all types of ",
+    "tagline_part6": "SIGNS",
+    "tagline_part7": " Standard or Custom-made",
+    "discover": "Discover our products",
+    "contact_us": "Contact us",
+    "years_exp": "Years of experience",
+    "projects": "Projects completed",
+    "satisfaction": "Client satisfaction",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "Who are we?",
+    "subtitle": "About Us",
+    "p1": "We are a group specializing in Vertical/Horizontal road signs, Indoor/Outdoor signage, Signboards, and Signaling accessories.",
+    "p2": " at your service to meet your requests, and all of our teams will professionally handle any operations you entrust to us.",
+    "p3": "Our commitment to managing and securing road flows has led us to set up a versatile organization, with significant human and material resources (proximity of agencies, stocks) to meet all your needs.",
+    "p4": "Calling on us means benefiting from fast service and personalized attention, and if you wish, a true partnership for all your signage needs.",
+    "p5": "Building on these experiences and our spirit of service, we are ready to support you in your projects and works while guaranteeing our values:",
+    "values": {
+      "respect": "RESPECT",
+      "responsibility": "RESPONSIBILITY",
+      "performance": "PERFORMANCE"
+    },
+    "edito_title": "CEO's Message",
+    "dg_role": "General Manager",
+    "quotes": [
+      "Because the team is a core value of our company, we wanted to let you discover behind the scenes.",
+      "Through this site, you will discover our professions, our evolutions, and our know-how, but also our projects.\nEnjoy your visit!",
+      "I am very happy to welcome you to our site. For years we have actively participated in the safety of users and pedestrians.",
+      "Equipping roads means giving meaning to traffic, road safety, user comfort, and it also makes roads and cities more pleasant to navigate.",
+      "We have also developed the distribution and sale of signage products by prioritizing quality, service, advice, but also speed of distribution."
+    ]
+  },
+  "products": {
+    "subtitle": "Our range",
+    "title": "Our Products",
+    "desc": "Discover our complete range of road signs, designed and manufactured in Morocco according to current standards.",
+    "quote_btn": "Request a quote"
+  },
+  "partners": {
+    "subtitle": "They trust us",
+    "title": "Among those who have trusted us"
+  },
+  "contact": {
+    "subtitle": "Contact us",
+    "title": "Let's talk about your project",
+    "desc": "Our team is ready to answer all your questions and support you in your signage projects.",
+    "address": "Address",
+    "email": "Email",
+    "availability": "Availability",
+    "availability_val1": "7 days a week",
+    "availability_val2": "09h - 18h",
+    "form": {
+      "name_label": "Full Name",
+      "name_placeholder": "Your name",
+      "name_req": "Name is required",
+      "email_label": "Email Address",
+      "email_placeholder": "your@email.com",
+      "email_req": "Email is required",
+      "email_invalid": "Invalid format",
+      "city_label": "City",
+      "city_placeholder": "Your city",
+      "city_req": "City is required",
+      "msg_label": "Message",
+      "msg_placeholder": "Describe your project or ask your question...",
+      "msg_req": "Message is required",
+      "sending": "Sending...",
+      "send": "Send message",
+      "success": "Message sent successfully!",
+      "success_desc": "We will reply as soon as possible."
+    }
+  },
+  "footer": {
+    "desc": "Specialist in vertical and horizontal road signs, indoor/outdoor signage, and signage accessories in Morocco.",
+    "nav_title": "Navigation",
+    "contact_title": "Contact",
+    "available": "Available Mon-Sat",
+    "rights": "All rights reserved.",
+    "keywords": "Road Signs · Traffic Signs · Signage"
+  }
+}

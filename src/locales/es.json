@@ -1,0 +1,94 @@
+{
+  "navbar": {
+    "accueil": "INICIO",
+    "produits": "PRODUCTOS",
+    "references": "REFERENCIAS",
+    "contact": "CONTACTO",
+    "quote": "COTIZACIÓN GRATIS"
+  },
+  "hero": {
+    "tagline_part1": "Líder en el ",
+    "tagline_part2": "DISEÑO",
+    "tagline_part3": " y la ",
+    "tagline_part4": "FABRICACIÓN",
+    "tagline_part5": " de todo tipo de ",
+    "tagline_part6": "PANELES",
+    "tagline_part7": " Estándar o a Medida",
+    "discover": "Descubre nuestros productos",
+    "contact_us": "Contáctanos",
+    "years_exp": "Años de experiencia",
+    "projects": "Proyectos realizados",
+    "satisfaction": "Satisfacción del cliente",
+    "scroll": "Desplazarse"
+  },
+  "about": {
+    "title": "¿Quiénes somos?",
+    "subtitle": "Sobre Nosotros",
+    "p1": "Somos un grupo especializado en señalización vial Vertical/Horizontal, señalética Interior/Exterior, Rótulos y Accesorios de señalización.",
+    "p2": " a su disposición para atender sus solicitudes, y todos nuestros equipos llevarán a cabo con profesionalismo cualquier operación que nos encomiende.",
+    "p3": "Nuestro compromiso con la gestión y seguridad del flujo vial nos ha llevado a establecer una organización versátil, con importantes recursos humanos y materiales (proximidad de agencias, inventarios) para satisfacer todas sus necesidades.",
+    "p4": "Elegirnos significa beneficiarse de un servicio rápido y atención personalizada y, si lo desea, una verdadera asociación para todas sus necesidades de señalización.",
+    "p5": "Apoyándonos en estas experiencias y nuestro espíritu de servicio, estamos listos para acompañarle en sus proyectos y trabajos garantizando nuestros valores:",
+    "values": {
+      "respect": "RESPETO",
+      "responsibility": "RESPONSABILIDAD",
+      "performance": "RENDIMIENTO"
+    },
+    "edito_title": "Mensaje del Director",
+    "dg_role": "Director General",
+    "quotes": [
+      "Dado que el equipo es un valor central de nuestra empresa, quisimos que descubriera el detrás de escena.",
+      "A través de este sitio, descubrirá nuestras profesiones, nuestras evoluciones y nuestro saber hacer, pero también nuestros proyectos.\n¡Disfrute de su visita!",
+      "Estoy muy feliz de darle la bienvenida a nuestro sitio. Durante años hemos participado activamente en la seguridad de los usuarios y peatones.",
+      "Equipar las vías significa dar sentido al tráfico, la seguridad vial, el confort de los usuarios, también hace que las carreteras y ciudades sean más agradables de transitar.",
+      "También hemos desarrollado la distribución y venta de productos de señalización priorizando la calidad, servicio, asesoramiento, pero también la rapidez de distribución."
+    ]
+  },
+  "products": {
+    "subtitle": "Nuestra gama",
+    "title": "Nuestros Productos",
+    "desc": "Descubra nuestra gama completa de señales de tráfico, diseñadas y fabricadas en Marruecos según los estándares actuales.",
+    "quote_btn": "Solicitar cotización"
+  },
+  "partners": {
+    "subtitle": "Confían en nosotros",
+    "title": "Entre los que han confiado en nosotros"
+  },
+  "contact": {
+    "subtitle": "Contáctanos",
+    "title": "Hablemos de su proyecto",
+    "desc": "Nuestro equipo está listo para responder a todas sus preguntas y acompañarle en sus proyectos de señalización.",
+    "address": "Dirección",
+    "email": "Correo electrónico",
+    "availability": "Disponibilidad",
+    "availability_val1": "7 días a la semana",
+    "availability_val2": "09h - 18h",
+    "form": {
+      "name_label": "Nombre completo",
+      "name_placeholder": "Su nombre",
+      "name_req": "El nombre es obligatorio",
+      "email_label": "Correo electrónico",
+      "email_placeholder": "su@email.com",
+      "email_req": "El correo es obligatorio",
+      "email_invalid": "Formato inválido",
+      "city_label": "Ciudad",
+      "city_placeholder": "Su ciudad",
+      "city_req": "La ciudad es obligatoria",
+      "msg_label": "Mensaje",
+      "msg_placeholder": "Describa su proyecto o haga su pregunta...",
+      "msg_req": "El mensaje es obligatorio",
+      "sending": "Enviando...",
+      "send": "Enviar mensaje",
+      "success": "¡Mensaje enviado con éxito!",
+      "success_desc": "Le responderemos lo antes posible."
+    }
+  },
+  "footer": {
+    "desc": "Especialista en señalización vial vertical y horizontal, señalética interior/exterior y accesorios de señalización en Marruecos.",
+    "nav_title": "Navegación",
+    "contact_title": "Contacto",
+    "available": "Disponible Lun-Sáb",
+    "rights": "Todos los derechos reservados.",
+    "keywords": "Señales de Tráfico · Señalización Vial"
+  }
+}

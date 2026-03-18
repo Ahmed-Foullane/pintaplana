@@ -1,0 +1,94 @@
+{
+  "navbar": {
+    "accueil": "ACCUEIL",
+    "produits": "PRODUITS",
+    "references": "RÉFÉRENCES",
+    "contact": "CONTACT",
+    "quote": "DEVIS GRATUIT"
+  },
+  "hero": {
+    "tagline_part1": "Leader dans la ",
+    "tagline_part2": "CONCEPTION",
+    "tagline_part3": " et la ",
+    "tagline_part4": "FABRICATION",
+    "tagline_part5": " de tous types de ",
+    "tagline_part6": "PANNEAUX",
+    "tagline_part7": " Standard ou sur Mesure",
+    "discover": "Découvrir nos produits",
+    "contact_us": "Nous contacter",
+    "years_exp": "Années d'expérience",
+    "projects": "Projets réalisés",
+    "satisfaction": "Satisfaction client",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "title": "Qui sommes nous ?",
+    "subtitle": "À Propos",
+    "p1": "Nous sommes un groupe spécialisé dans la signalisation routière Verticale/Horizontale, la signalétique Interieure/Exterieure, Enseignes et Accessoires de signalisation.",
+    "p2": " à votre disposition pour répondre à vos demandes, et l'ensemble de nos équipes saura réaliser avec professionnalisme toutes les opérations que vous nous confierez.",
+    "p3": "Notre engagement sur la gestion et la sécurisation des flux routiers nous a amené à mettre en place une organisation polyvalente, des moyens humains et matériels importants (proximité des agences, stocks) pour répondre à tous vos besoins.",
+    "p4": "Faire appel à nous c'est bénéficier d'un service rapide et d'une écoute personnalisée, et si vous le souhaitez, d'un réel partenariat pour l'intégralité de vos besoins en matière de signalisation.",
+    "p5": "Fort de ces expériences et de notre esprit de service, nous sommes prêts à vous accompagner dans vos projets et travaux dans la garantie de nos valeurs :",
+    "values": {
+      "respect": "RESPECT",
+      "responsibility": "RESPONSABILITÉ",
+      "performance": "PERFORMANCE"
+    },
+    "edito_title": "Edito du DG",
+    "dg_role": "Directeur Général",
+    "quotes": [
+      "Parce que l'équipe est une valeur centrale de notre entreprise, nous avons souhaité vous faire découvrir les coulisses.",
+      "A travers ce site, vous découvrirez nos métiers, nos évolutions et nos savoir-faire, mais aussi nos projets.\nBonne visite !",
+      "Je suis très heureux de vous accueillir sur notre site. Depuis des années nous participons activement à la sécurité des usagers et des piétons.",
+      "Equiper les routes, c'est donner un sens à la circulation, à la sécurité routière, au confort des usagers, c'est aussi rendre les routes et les villes plus agréables à circuler.",
+      "Nous avons également développé la distribution et la vente de produits de signalisation en privilégiant la qualité, le service, le conseil, mais aussi la rapidité de distribution."
+    ]
+  },
+  "products": {
+    "subtitle": "Notre gamme",
+    "title": "Nos Produits",
+    "desc": "Découvrez notre gamme complète de panneaux de signalisation routière, conçus et fabriqués au Maroc selon les normes en vigueur.",
+    "quote_btn": "Demander un devis"
+  },
+  "partners": {
+    "subtitle": "Ils nous font confiance",
+    "title": "Parmi ceux qui nous ont fait confiance"
+  },
+  "contact": {
+    "subtitle": "Contactez-nous",
+    "title": "Parlons de votre projet",
+    "desc": "Notre équipe est prête à répondre à toutes vos questions et vous accompagner dans vos projets de signalisation.",
+    "address": "Adresse",
+    "email": "E-mail",
+    "availability": "Disponibilité",
+    "availability_val1": "7 jours sur 7",
+    "availability_val2": "09h - 18h",
+    "form": {
+      "name_label": "Nom complet",
+      "name_placeholder": "Votre nom",
+      "name_req": "Le nom est requis",
+      "email_label": "Adresse e-mail",
+      "email_placeholder": "votre@email.com",
+      "email_req": "L'e-mail est requis",
+      "email_invalid": "Format invalide",
+      "city_label": "Ville",
+      "city_placeholder": "Votre ville",
+      "city_req": "La ville est requise",
+      "msg_label": "Message",
+      "msg_placeholder": "Décrivez votre projet ou posez votre question...",
+      "msg_req": "Le message est requis",
+      "sending": "Envoi en cours...",
+      "send": "Envoyer le message",
+      "success": "Message envoyé avec succès !",
+      "success_desc": "Nous vous répondrons dans les plus brefs délais."
+    }
+  },
+  "footer": {
+    "desc": "Spécialiste de la signalisation routière verticale et horizontale, signalétique intérieure/extérieure et accessoires de signalisation au Maroc.",
+    "nav_title": "Navigation",
+    "contact_title": "Contact",
+    "available": "Disponible Lun-Sam",
+    "rights": "Tous droits réservés.",
+    "keywords": "Signalisation Routière · Panneaux · Signalétique"
+  }
+}
