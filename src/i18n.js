@@ -16,6 +16,10 @@ i18n
       fr: { translation: frTranslations },
     },
     fallbackLng: 'fr',
+    detection: {
+      order: ['localStorage', 'cookie'], // Omit 'navigator' so it defaults to fallbackLng (fr) instead of browser language
+      caches: ['localStorage', 'cookie'],
+    },
     interpolation: {
       escapeValue: false, // React already safeguards from xss
     },

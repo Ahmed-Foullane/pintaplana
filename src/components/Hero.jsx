@@ -95,18 +95,12 @@ export default function Hero() {
           {/* Stats row */}
           <motion.div
             variants={fadeUp}
-            className="mt-16 grid grid-cols-3 gap-4 sm:gap-8 max-w-lg mx-auto"
+            className="mt-16 flex justify-center max-w-lg mx-auto"
           >
-            {[
-              { value: '15+', label: t('hero.years_exp') },
-              { value: '500+', label: t('hero.projects') },
-              { value: '100%', label: t('hero.satisfaction') },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-2xl sm:text-3xl font-black text-[#FFC107]">{stat.value}</div>
-                <div className="text-[10px] sm:text-xs text-gray-400 mt-1 leading-tight">{stat.label}</div>
-              </div>
-            ))}
+            <div className="text-center">
+              <div className="text-2xl sm:text-3xl font-black text-[#FFC107]">100%</div>
+              <div className="text-[10px] sm:text-xs text-gray-400 mt-1 leading-tight">{t('hero.satisfaction')}</div>
+            </div>
           </motion.div>
         </motion.div>
       </div>

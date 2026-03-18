@@ -1,16 +1,8 @@
 import { motion } from 'framer-motion'
-import { Facebook, Linkedin, Instagram, Twitter } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { fadeUp, fadeLeft, staggerContainer } from '../utils/animations'
 
 // navLinks moved inside component
-
-const socials = [
-  { icon: Facebook,  href: '#', label: 'Facebook' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Linkedin,  href: '#', label: 'LinkedIn' },
-  { icon: Twitter,   href: '#', label: 'Twitter' },
-]
 
 function scrollTo(href) {
   document.getElementById(href.replace('#', ''))?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -50,17 +42,9 @@ export default function Footer() {
                 <div className="text-[#FFC107] font-bold text-xs tracking-widest">MAROC</div>
               </div>
             </button>
-            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+            <p className="text-gray-400 text-sm leading-relaxed max-w-sm mt-6">
               {t('footer.desc')}
             </p>
-            <div className="flex gap-3 mt-6">
-              {socials.map(({ icon: Icon, href, label }) => (
-                <a key={label} href={href} aria-label={label}
-                  className="w-9 h-9 bg-white/5 hover:bg-[#2E7D32] border border-white/10 hover:border-[#2E7D32] rounded-sm flex items-center justify-center text-gray-400 hover:text-white transition-all duration-200">
-                  <Icon size={15} />
-                </a>
-              ))}
-            </div>
           </motion.div>
 
           {/* Quick Links */}
