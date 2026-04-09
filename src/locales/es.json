@@ -1,6 +1,7 @@
 {
   "navbar": {
     "accueil": "INICIO",
+    "about": "NOSOTROS",
     "produits": "PRODUCTOS",
     "references": "REFERENCIAS",
     "contact": "CONTACTO",
@@ -35,7 +36,6 @@
       "performance": "RENDIMIENTO"
     },
     "edito_title": "Mensaje del Director",
-    "dg_role": "Director General",
     "quotes": [
       "Dado que el equipo es un valor central de nuestra empresa, quisimos que descubriera el detrás de escena.",
       "A través de este sitio, descubrirá nuestras profesiones, nuestras evoluciones y nuestro saber hacer, pero también nuestros proyectos.\n¡Disfrute de su visita!",

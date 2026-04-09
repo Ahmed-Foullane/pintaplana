@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ZoomIn } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
@@ -15,6 +16,7 @@ const productImages = [
 
 export default function Products() {
   const { t } = useTranslation()
+  const navigate = useNavigate()
   const [lightbox, setLightbox] = useState(null)
 
   return (
@@ -84,7 +86,8 @@ export default function Products() {
             className="text-center mt-12"
           >
             <button
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              type="button"
+              onClick={() => navigate('/contact')}
               className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#2E7D32] hover:bg-[#4CAF50] text-white font-bold text-sm tracking-wider rounded-sm transition-all duration-200 hover:shadow-xl hover:shadow-green-900/20 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
             >
               {t('products.quote_btn')}

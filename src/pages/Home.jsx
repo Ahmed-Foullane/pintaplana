@@ -1,9 +1,5 @@
 import { Helmet } from 'react-helmet-async'
 import Hero from '../components/Hero'
-import About from '../components/About'
-import Products from '../components/Products'
-import Partners from '../components/Partners'
-import ContactForm from '../components/ContactForm'
 
 export default function Home() {
   return (
@@ -22,10 +18,6 @@ export default function Home() {
 
       <main>
         <Hero />
-        <About />
-        <Products />
-        <Partners />
-        <ContactForm />
       </main>
     </>
   )

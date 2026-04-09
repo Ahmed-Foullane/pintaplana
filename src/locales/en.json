@@ -1,6 +1,7 @@
 {
   "navbar": {
     "accueil": "HOME",
+    "about": "ABOUT",
     "produits": "PRODUCTS",
     "references": "REFERENCES",
     "contact": "CONTACT",
@@ -35,7 +36,6 @@
       "performance": "PERFORMANCE"
     },
     "edito_title": "CEO's Message",
-    "dg_role": "General Manager",
     "quotes": [
       "Because the team is a core value of our company, we wanted to let you discover behind the scenes.",
       "Through this site, you will discover our professions, our evolutions, and our know-how, but also our projects.\nEnjoy your visit!",

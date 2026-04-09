@@ -1,23 +1,29 @@
 import { useState, useEffect } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { Toaster } from 'sonner'
 import { AnimatePresence } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
+import AboutPage from './pages/AboutPage'
+import ProductsPage from './pages/ProductsPage'
+import PartnersPage from './pages/PartnersPage'
+import ContactPage from './pages/ContactPage'
 import Loader from './components/Loader'
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    // Scroll to top on load/reload
     window.history.scrollRestoration = 'manual'
     window.scrollTo(0, 0)
   }, [])
 
   return (
     <HelmetProvider>
+      <ScrollToTop />
       <AnimatePresence mode="wait">
         {isLoading && (
           <Loader key="loader" onLoadingComplete={() => setIsLoading(false)} />
@@ -27,7 +33,13 @@ export default function App() {
       <div className={`min-h-screen flex flex-col ${isLoading ? 'h-screen overflow-hidden' : ''}`}>
         <Navbar />
         <div className="flex-1">
-          <Home />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/products" element={<ProductsPage />} />
+            <Route path="/references" element={<PartnersPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
         </div>
         <Footer />
       </div>

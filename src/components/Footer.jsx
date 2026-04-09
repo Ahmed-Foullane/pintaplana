@@ -1,22 +1,18 @@
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { fadeUp, fadeLeft, staggerContainer } from '../utils/animations'
-
-// navLinks moved inside component
-
-function scrollTo(href) {
-  document.getElementById(href.replace('#', ''))?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-}
 
 export default function Footer() {
   const { t } = useTranslation()
   const year = new Date().getFullYear()
 
   const navLinks = [
-    { label: t('navbar.accueil'),    href: '#accueil' },
-    { label: t('navbar.produits'),   href: '#produits' },
-    { label: t('navbar.references'), href: '#references' },
-    { label: t('navbar.contact'),    href: '#contact' },
+    { label: t('navbar.accueil'), to: '/' },
+    { label: t('navbar.about'), to: '/about' },
+    { label: t('navbar.produits'), to: '/products' },
+    { label: t('navbar.references'), to: '/references' },
+    { label: t('navbar.contact'), to: '/contact' },
   ]
 
   return (
@@ -33,7 +29,7 @@ export default function Footer() {
         >
           {/* Brand */}
           <motion.div variants={fadeLeft} className="lg:col-span-2">
-            <button onClick={() => scrollTo('#accueil')} className="flex items-center gap-2 mb-4 cursor-pointer">
+            <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 rounded-sm bg-[#2E7D32] flex items-center justify-center">
                 <span className="text-white font-black text-base">P</span>
               </div>
@@ -41,7 +37,7 @@ export default function Footer() {
                 <div className="text-white font-bold text-base tracking-wider">PINTAPLANA</div>
                 <div className="text-[#FFC107] font-bold text-xs tracking-widest">MAROC</div>
               </div>
-            </button>
+            </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm mt-6">
               {t('footer.desc')}
             </p>
@@ -52,12 +48,14 @@ export default function Footer() {
             <h3 className="text-white font-bold text-xs tracking-widest uppercase mb-5">{t('footer.nav_title')}</h3>
             <ul className="space-y-3">
               {navLinks.map((link) => (
-                <li key={link.label}>
-                  <button onClick={() => scrollTo(link.href)}
-                    className="text-gray-400 hover:text-[#FFC107] text-sm transition-colors duration-200 flex items-center gap-2 group cursor-pointer">
+                <li key={link.to}>
+                  <Link
+                    to={link.to}
+                    className="text-gray-400 hover:text-[#FFC107] text-sm transition-colors duration-200 flex items-center gap-2 group"
+                  >
                     <span className="w-4 h-px bg-gray-600 group-hover:bg-[#FFC107] group-hover:w-6 transition-all duration-200" />
                     {link.label}
-                  </button>
+                  </Link>
                 </li>
               ))}
             </ul>

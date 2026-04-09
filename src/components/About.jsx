@@ -110,19 +110,17 @@ export default function About() {
               <div className="absolute -bottom-3 left-10 w-10 h-10 bg-[#f4f4f4] rotate-45" />
             </div>
 
-            <div className="flex items-end justify-between pl-2 pt-2">
-              <div>
-                <div className="text-[#111111] font-bold text-lg tracking-wide">TRIBKI AZIZ,</div>
-                <div className="text-gray-500 text-[15px] font-normal mt-0.5">{t('about.dg_role')}</div>
-              </div>
+            <div className="flex items-center justify-end pl-2 pt-2">
               <div className="flex gap-[2px]">
                 <button
+                  type="button"
                   onClick={prevQuote}
                   className="w-12 h-12 bg-[#6eb31a] hover:bg-[#5a9c14] text-white flex items-center justify-center transition-colors focus:outline-none"
                 >
                   <ChevronUp size={28} strokeWidth={2.5} />
                 </button>
                 <button
+                  type="button"
                   onClick={nextQuote}
                   className="w-12 h-12 bg-[#6eb31a] hover:bg-[#5a9c14] text-white flex items-center justify-center transition-colors focus:outline-none"
                 >

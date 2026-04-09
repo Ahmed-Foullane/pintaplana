@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
@@ -17,12 +18,9 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] } },
 }
 
-function scrollTo(id) {
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-}
-
 export default function Hero() {
   const { t } = useTranslation()
+  const navigate = useNavigate()
   return (
     <section id="accueil" className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -75,7 +73,8 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <button
-              onClick={() => scrollTo('produits')}
+              type="button"
+              onClick={() => navigate('/products')}
               className="group flex items-center gap-3 px-8 py-4 bg-[#2E7D32] hover:bg-[#4CAF50] text-white font-bold text-sm tracking-wider rounded-sm transition-all duration-300 hover:shadow-xl hover:shadow-green-900/40 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
             >
               {t('hero.discover')}
@@ -85,7 +84,8 @@ export default function Hero() {
               />
             </button>
             <button
-              onClick={() => scrollTo('contact')}
+              type="button"
+              onClick={() => navigate('/contact')}
               className="flex items-center gap-3 px-8 py-4 border border-white/20 hover:border-[#FFC107]/50 text-white hover:text-[#FFC107] font-semibold text-sm tracking-wider rounded-sm transition-all duration-300 hover:bg-white/5 cursor-pointer"
             >
               {t('hero.contact_us')}
@@ -111,7 +111,10 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 cursor-pointer"
-        onClick={() => scrollTo('about')}
+        onClick={() => navigate('/about')}
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); navigate('/about') } }}
+        role="button"
+        tabIndex={0}
       >
         <span className="text-gray-500 text-[10px] tracking-widest uppercase">{t('hero.scroll')}</span>
         <motion.div

@@ -1,6 +1,7 @@
 {
   "navbar": {
     "accueil": "ACCUEIL",
+    "about": "À PROPOS",
     "produits": "PRODUITS",
     "references": "RÉFÉRENCES",
     "contact": "CONTACT",
@@ -35,7 +36,6 @@
       "performance": "PERFORMANCE"
     },
     "edito_title": "Edito du DG",
-    "dg_role": "Directeur Général",
     "quotes": [
       "Parce que l'équipe est une valeur centrale de notre entreprise, nous avons souhaité vous faire découvrir les coulisses.",
       "A travers ce site, vous découvrirez nos métiers, nos évolutions et nos savoir-faire, mais aussi nos projets.\nBonne visite !",
