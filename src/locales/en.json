@@ -4,6 +4,7 @@
     "about": "ABOUT",
     "produits": "PRODUCTS",
     "references": "REFERENCES",
+    "catalog": "CATALOG",
     "contact": "CONTACT",
     "quote": "FREE QUOTE"
   },
@@ -76,6 +77,17 @@
     "subtitle": "They trust us",
     "title": "Among those who have trusted us"
   },
+  "catalog": {
+    "meta_title": "Catalog & flyer",
+    "meta_desc": "Download the PINTAPLANA MAROC product catalog and flyer (PDF).",
+    "page_title": "Browse our CATALOG and FLYER",
+    "open": "Open PDF",
+    "badge_pdf": "PDF",
+    "cards": {
+      "catalog": { "label": "CATALOGUE PINTAPLANA MAROC" },
+      "flyer": { "label": "FLYER PINTAPLANA MAROC" }
+    }
+  },
   "contact": {
     "subtitle": "Contact us",
     "title": "Let's talk about your project",
@@ -85,6 +97,14 @@
     "availability": "Availability",
     "availability_val1": "7 days a week",
     "availability_val2": "09h - 18h",
+    "info_addr1": "Av Chorafae, Imm Taoufikia,",
+    "info_addr2": "N° 33, Quartier Cherf",
+    "info_addr3": "Tangier - Morocco",
+    "info_email": "contact@pintaplana.com",
+    "phone": "Phone",
+    "fax": "Fax",
+    "phone_value": "+212 5 39 95 64 89",
+    "fax_value": "+212 5 39 95 64 55",
     "form": {
       "name_label": "Full Name",
       "name_placeholder": "Your name",
@@ -107,9 +127,17 @@
   },
   "footer": {
     "desc": "Specialist in vertical and horizontal road signs, indoor/outdoor signage, and signage accessories in Morocco.",
-    "nav_title": "Navigation",
-    "contact_title": "Contact",
-    "available": "Available Mon-Sat",
+    "offices_title": "Our offices",
+    "office_line1": "Av Chorafae, Imm Taoufikia,",
+    "office_line2": "N° 33, Quartier Cherf",
+    "office_line3": "Tangier - Morocco",
+    "coords_title": "Contact details",
+    "phone_label": "T:",
+    "phone_value": "+212 5 39 95 64 89",
+    "fax_label": "F:",
+    "fax_value": "+212 5 39 95 64 55",
+    "reach_title": "Contact us",
+    "email_value": "contact@pintaplana.com",
     "rights": "All rights reserved.",
     "keywords": "Road Signs · Traffic Signs · Signage"
   }

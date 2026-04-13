@@ -11,6 +11,7 @@ import AboutPage from './pages/AboutPage'
 import ProductsPage from './pages/ProductsPage'
 import PartnersPage from './pages/PartnersPage'
 import ContactPage from './pages/ContactPage'
+import CatalogPage from './pages/CatalogPage'
 import Loader from './components/Loader'
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
             <Route path="/products" element={<ProductsPage />} />
             <Route path="/references" element={<PartnersPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/catalog" element={<CatalogPage />} />
           </Routes>
         </div>
         <Footer />

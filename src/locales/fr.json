@@ -4,6 +4,7 @@
     "about": "À PROPOS",
     "produits": "PRODUITS",
     "references": "RÉFÉRENCES",
+    "catalog": "CATALOGUE",
     "contact": "CONTACT",
     "quote": "DEVIS GRATUIT"
   },
@@ -76,6 +77,17 @@
     "subtitle": "Ils nous font confiance",
     "title": "Parmi ceux qui nous ont fait confiance"
   },
+  "catalog": {
+    "meta_title": "Catalogue & flyer",
+    "meta_desc": "Téléchargez le catalogue et le flyer PINTAPLANA MAROC (PDF).",
+    "page_title": "Consultez notre CATALOGUE et FLYER",
+    "open": "Ouvrir le PDF",
+    "badge_pdf": "PDF",
+    "cards": {
+      "catalog": { "label": "CATALOGUE PINTAPLANA MAROC" },
+      "flyer": { "label": "FLYER PINTAPLANA MAROC" }
+    }
+  },
   "contact": {
     "subtitle": "Contactez-nous",
     "title": "Parlons de votre projet",
@@ -85,6 +97,14 @@
     "availability": "Disponibilité",
     "availability_val1": "7 jours sur 7",
     "availability_val2": "09h - 18h",
+    "info_addr1": "Av Chorafae, Imm Taoufikia,",
+    "info_addr2": "N° 33, Quartier Cherf",
+    "info_addr3": "Tanger - Maroc",
+    "info_email": "contact@pintaplana.com",
+    "phone": "Téléphone",
+    "fax": "Fax",
+    "phone_value": "+212 5 39 95 64 89",
+    "fax_value": "+212 5 39 95 64 55",
     "form": {
       "name_label": "Nom complet",
       "name_placeholder": "Votre nom",
@@ -107,9 +127,17 @@
   },
   "footer": {
     "desc": "Spécialiste de la signalisation routière verticale et horizontale, signalétique intérieure/extérieure et accessoires de signalisation au Maroc.",
-    "nav_title": "Navigation",
-    "contact_title": "Contact",
-    "available": "Disponible Lun-Sam",
+    "offices_title": "Nos bureaux",
+    "office_line1": "Av Chorafae, Imm Taoufikia,",
+    "office_line2": "N° 33, Quartier Cherf",
+    "office_line3": "Tanger - Maroc",
+    "coords_title": "Nos coordonnées",
+    "phone_label": "T :",
+    "phone_value": "+212 5 39 95 64 89",
+    "fax_label": "F :",
+    "fax_value": "+212 5 39 95 64 55",
+    "reach_title": "Nous Contactez",
+    "email_value": "contact@pintaplana.com",
     "rights": "Tous droits réservés.",
     "keywords": "Signalisation Routière · Panneaux · Signalétique"
   }

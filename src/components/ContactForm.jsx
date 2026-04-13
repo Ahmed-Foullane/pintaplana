@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { toast } from 'sonner'
-import { Send, User, Mail, MapPin, MessageSquare } from 'lucide-react'
+import { Send, User, Mail, MapPin, MessageSquare, Phone, Printer } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { fadeUp, fadeLeft, fadeRight, staggerContainer } from '../utils/animations'
 
@@ -96,9 +96,31 @@ export default function ContactForm() {
           >
             <div className="space-y-8">
               {[
-                { icon: MapPin,        label: t('contact.address'),       lines: ['Maroc'] },
-                { icon: Mail,          label: t('contact.email'),        lines: ['contact@pintaplana.net'] },
-                { icon: MessageSquare, label: t('contact.availability'), lines: [t('contact.availability_val1'), t('contact.availability_val2')] },
+                {
+                  icon: MapPin,
+                  label: t('contact.address'),
+                  lines: [t('contact.info_addr1'), t('contact.info_addr2'), t('contact.info_addr3')],
+                },
+                {
+                  icon: Phone,
+                  label: t('contact.phone'),
+                  lines: [t('contact.phone_value')],
+                },
+                {
+                  icon: Printer,
+                  label: t('contact.fax'),
+                  lines: [t('contact.fax_value')],
+                },
+                {
+                  icon: Mail,
+                  label: t('contact.email'),
+                  lines: [t('contact.info_email')],
+                },
+                {
+                  icon: MessageSquare,
+                  label: t('contact.availability'),
+                  lines: [t('contact.availability_val1'), t('contact.availability_val2')],
+                },
               ].map(({ icon: Icon, label, lines }) => (
                 <div key={label} className="flex gap-4">
                   <div className="w-10 h-10 bg-[#2E7D32]/15 border border-[#2E7D32]/20 rounded-sm flex items-center justify-center shrink-0">

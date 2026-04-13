@@ -4,6 +4,7 @@
     "about": "NOSOTROS",
     "produits": "PRODUCTOS",
     "references": "REFERENCIAS",
+    "catalog": "CATÁLOGO",
     "contact": "CONTACTO",
     "quote": "COTIZACIÓN GRATIS"
   },
@@ -76,6 +77,17 @@
     "subtitle": "Confían en nosotros",
     "title": "Entre los que han confiado en nosotros"
   },
+  "catalog": {
+    "meta_title": "Catálogo y folleto",
+    "meta_desc": "Descargue el catálogo y el folleto PINTAPLANA MAROC (PDF).",
+    "page_title": "Consulte nuestro CATÁLOGO y FOLLETO",
+    "open": "Abrir el PDF",
+    "badge_pdf": "PDF",
+    "cards": {
+      "catalog": { "label": "CATALOGUE PINTAPLANA MAROC" },
+      "flyer": { "label": "FLYER PINTAPLANA MAROC" }
+    }
+  },
   "contact": {
     "subtitle": "Contáctanos",
     "title": "Hablemos de su proyecto",
@@ -85,6 +97,14 @@
     "availability": "Disponibilidad",
     "availability_val1": "7 días a la semana",
     "availability_val2": "09h - 18h",
+    "info_addr1": "Av Chorafae, Imm Taoufikia,",
+    "info_addr2": "N° 33, Quartier Cherf",
+    "info_addr3": "Tánger - Marruecos",
+    "info_email": "contact@pintaplana.com",
+    "phone": "Teléfono",
+    "fax": "Fax",
+    "phone_value": "+212 5 39 95 64 89",
+    "fax_value": "+212 5 39 95 64 55",
     "form": {
       "name_label": "Nombre completo",
       "name_placeholder": "Su nombre",
@@ -107,9 +127,17 @@
   },
   "footer": {
     "desc": "Especialista en señalización vial vertical y horizontal, señalética interior/exterior y accesorios de señalización en Marruecos.",
-    "nav_title": "Navegación",
-    "contact_title": "Contacto",
-    "available": "Disponible Lun-Sáb",
+    "offices_title": "Nuestras oficinas",
+    "office_line1": "Av Chorafae, Imm Taoufikia,",
+    "office_line2": "N° 33, Quartier Cherf",
+    "office_line3": "Tánger - Marruecos",
+    "coords_title": "Datos de contacto",
+    "phone_label": "T:",
+    "phone_value": "+212 5 39 95 64 89",
+    "fax_label": "F:",
+    "fax_value": "+212 5 39 95 64 55",
+    "reach_title": "Contáctenos",
+    "email_value": "contact@pintaplana.com",
     "rights": "Todos los derechos reservados.",
     "keywords": "Señales de Tráfico · Señalización Vial"
   }
