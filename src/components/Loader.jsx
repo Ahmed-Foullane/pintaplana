@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
 const imagesToPreload = [
-  '/pintaHero-min.webp',
+  '/hero.png',
   '/product/WhatsApp Image 2026-03-08 at 7.41.14 PM-min.jpeg',
   '/product/WhatsApp Image 2026-03-08 at 7.48.12 PM (1)-min.jpeg',
   '/product/WhatsApp Image 2026-03-08 at 7.48.12 PM-min.jpeg',

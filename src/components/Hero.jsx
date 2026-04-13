@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 // Local hero image from /public
-const HERO_BG = '/pintaHero-min.webp'
+const HERO_BG = '/hero.png'
 
 const containerVariants = {
   hidden: {},
