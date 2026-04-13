@@ -23,11 +23,15 @@ export default function Hero() {
   const navigate = useNavigate()
   return (
     <section id="accueil" className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${HERO_BG})` }}
-      >
+      {/* Background — object-position biases crop so the scene (road, barrier, horizon) reads, not only the beam */}
+      <div className="absolute inset-0">
+        <img
+          src={HERO_BG}
+          alt=""
+          decoding="async"
+          className="absolute inset-0 h-full w-full object-cover object-[50%_38%] min-[480px]:object-[50%_42%] lg:object-[50%_45%]"
+          aria-hidden
+        />
         {/* Dark gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/85" />
         {/* Green accent line at bottom */}
@@ -111,8 +115,13 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 cursor-pointer"
-        onClick={() => navigate('/about')}
-        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); navigate('/about') } }}
+        onClick={() => document.getElementById('suite-accueil')?.scrollIntoView({ behavior: 'smooth' })}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault()
+            document.getElementById('suite-accueil')?.scrollIntoView({ behavior: 'smooth' })
+          }
+        }}
         role="button"
         tabIndex={0}
       >

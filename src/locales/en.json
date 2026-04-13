@@ -8,19 +8,41 @@
     "quote": "FREE QUOTE"
   },
   "hero": {
-    "tagline_part1": "Leader in the ",
-    "tagline_part2": "DESIGN",
-    "tagline_part3": " and ",
-    "tagline_part4": "MANUFACTURING",
-    "tagline_part5": " of all types of ",
-    "tagline_part6": "SIGNS",
-    "tagline_part7": " Standard or Custom-made",
+    "tagline_part1": "Road safety specialists: ",
+    "tagline_part2": "SIGNAGE",
+    "tagline_part3": ", ",
+    "tagline_part4": "GUARDRAILS",
+    "tagline_part5": ", and equipment that keeps vehicles ",
+    "tagline_part6": "ON THE ROAD",
+    "tagline_part7": " — designed and supplied across Morocco, standard or custom.",
     "discover": "Discover our products",
     "contact_us": "Contact us",
     "years_exp": "Years of experience",
     "projects": "Projects completed",
     "satisfaction": "Client satisfaction",
     "scroll": "Scroll"
+  },
+  "home": {
+    "intro_eyebrow": "Our expertise",
+    "intro_title": "Road safety and signage, end to end",
+    "intro_lead": "From design to delivery, we support public works, infrastructure, and industry with compliant signage and responsive service across Morocco.",
+    "features": {
+      "scope": {
+        "title": "Vertical & horizontal signage",
+        "desc": "Road signs, markings, safety guardrails, indoor and outdoor signage, and accessories—standard or custom—to match your project."
+      },
+      "quality": {
+        "title": "Standards you can rely on",
+        "desc": "Manufacturing aligned with current norms, rigorous finishing, and advice so your installations stay clear and durable."
+      },
+      "presence": {
+        "title": "Local footprint, fast response",
+        "desc": "Agencies, stock, and teams organized to secure flows and shorten lead times when it matters."
+      }
+    },
+    "link_about": "About us",
+    "link_products": "View products",
+    "link_contact": "Request a quote"
   },
   "about": {
     "title": "Who are we?",

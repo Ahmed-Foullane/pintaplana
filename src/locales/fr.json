@@ -8,19 +8,41 @@
     "quote": "DEVIS GRATUIT"
   },
   "hero": {
-    "tagline_part1": "Leader dans la ",
-    "tagline_part2": "CONCEPTION",
-    "tagline_part3": " et la ",
-    "tagline_part4": "FABRICATION",
-    "tagline_part5": " de tous types de ",
-    "tagline_part6": "PANNEAUX",
-    "tagline_part7": " Standard ou sur Mesure",
+    "tagline_part1": "Spécialistes de la sécurité routière : ",
+    "tagline_part2": "SIGNALISATION",
+    "tagline_part3": ", ",
+    "tagline_part4": "GLISSIÈRES",
+    "tagline_part5": " et équipements qui gardent les véhicules ",
+    "tagline_part6": "SUR LA CHAUSÉE",
+    "tagline_part7": " — étude et mise à disposition partout au Maroc, standard ou sur mesure.",
     "discover": "Découvrir nos produits",
     "contact_us": "Nous contacter",
     "years_exp": "Années d'expérience",
     "projects": "Projets réalisés",
     "satisfaction": "Satisfaction client",
     "scroll": "Défiler"
+  },
+  "home": {
+    "intro_eyebrow": "Notre savoir-faire",
+    "intro_title": "Sécurité routière et signalisation, de A à Z",
+    "intro_lead": "De la conception à la livraison, nous accompagnons les travaux publics, l’infrastructure et l’industrie avec une signalisation conforme et un service réactif partout au Maroc.",
+    "features": {
+      "scope": {
+        "title": "Signalisation verticale & horizontale",
+        "desc": "Panneaux, marquages, glissières de sécurité, signalétique intérieure/extérieure et accessoires — standard ou sur mesure — adaptés à votre chantier."
+      },
+      "quality": {
+        "title": "Des normes sur lesquelles s’appuyer",
+        "desc": "Fabrication selon les référentiels en vigueur, finitions soignées et conseil pour des installations lisibles et durables."
+      },
+      "presence": {
+        "title": "Proximité, réactivité",
+        "desc": "Agences, stocks et équipes structurés pour sécuriser les flux et réduire les délais quand chaque jour compte."
+      }
+    },
+    "link_about": "À propos",
+    "link_products": "Voir les produits",
+    "link_contact": "Demander un devis"
   },
   "about": {
     "title": "Qui sommes nous ?",

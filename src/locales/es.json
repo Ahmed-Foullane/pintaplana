@@ -8,19 +8,41 @@
     "quote": "COTIZACIÓN GRATIS"
   },
   "hero": {
-    "tagline_part1": "Líder en el ",
-    "tagline_part2": "DISEÑO",
-    "tagline_part3": " y la ",
-    "tagline_part4": "FABRICACIÓN",
-    "tagline_part5": " de todo tipo de ",
-    "tagline_part6": "PANELES",
-    "tagline_part7": " Estándar o a Medida",
+    "tagline_part1": "Especialistas en seguridad vial: ",
+    "tagline_part2": "SEÑALIZACIÓN",
+    "tagline_part3": ", ",
+    "tagline_part4": "GUARDARRAÍLES",
+    "tagline_part5": " y equipamiento que mantiene los vehículos ",
+    "tagline_part6": "EN LA CALZADA",
+    "tagline_part7": " — diseño y suministro en todo Marruecos, estándar o a medida.",
     "discover": "Descubre nuestros productos",
     "contact_us": "Contáctanos",
     "years_exp": "Años de experiencia",
     "projects": "Proyectos realizados",
     "satisfaction": "Satisfacción del cliente",
     "scroll": "Desplazarse"
+  },
+  "home": {
+    "intro_eyebrow": "Nuestra experiencia",
+    "intro_title": "Seguridad vial y señalización, de principio a fin",
+    "intro_lead": "Del diseño a la entrega, acompañamos obras públicas, infraestructura e industria con señalización conforme y un servicio ágil en todo Marruecos.",
+    "features": {
+      "scope": {
+        "title": "Señalización vertical y horizontal",
+        "desc": "Paneles, demarcación, guardarraíles de seguridad, señalética interior/exterior y accesorios — estándar o a medida — para su proyecto."
+      },
+      "quality": {
+        "title": "Normas en las que confiar",
+        "desc": "Fabricación alineada con la normativa vigente, acabados cuidados y asesoramiento para instalaciones claras y duraderas."
+      },
+      "presence": {
+        "title": "Presencia local, respuesta rápida",
+        "desc": "Agencias, stock y equipos organizados para asegurar el tráfico y acortar plazos cuando importa."
+      }
+    },
+    "link_about": "Sobre nosotros",
+    "link_products": "Ver productos",
+    "link_contact": "Solicitar presupuesto"
   },
   "about": {
     "title": "¿Quiénes somos?",
