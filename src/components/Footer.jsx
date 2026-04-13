@@ -72,6 +72,14 @@ export default function Footer() {
               {t("footer.contact_title")}
             </h3>
             <ul className="space-y-3 text-gray-400 text-sm">
+              <li>
+                <a
+                  href="tel:+212661180779"
+                  className="text-gray-300 hover:text-[#FFC107] transition-colors"
+                >
+                  {t("footer.phone_mobile")}
+                </a>
+              </li>
               <li>contact@pintaplana.net</li>
               <li>Maroc</li>
               <li className="pt-1">
