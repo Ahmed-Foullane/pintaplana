@@ -85,7 +85,6 @@ export default function Footer() {
               <li className="pt-1">
                 <span className="inline-flex items-center gap-2 text-[#4CAF50] text-xs font-semibold">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#4CAF50] animate-pulse" />
-                  {t("footer.available")}
                 </span>
               </li>
             </ul>
