@@ -80,8 +80,15 @@ export default function Footer() {
                   {t("footer.phone_mobile")}
                 </a>
               </li>
-              <li>contact@pintaplana.net</li>
-              <li>Maroc</li>
+              <li>
+                <a
+                  href={`mailto:${t("footer.email_value")}`}
+                  className="text-gray-300 hover:text-[#FFC107] transition-colors"
+                >
+                  {t("footer.email_value")}
+                </a>
+              </li>
+              <li>{t("footer.office_line1")}</li>
               <li className="pt-1">
                 <span className="inline-flex items-center gap-2 text-[#4CAF50] text-xs font-semibold">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#4CAF50] animate-pulse" />

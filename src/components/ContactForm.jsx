@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { toast } from 'sonner'
-import { Send, User, Mail, MapPin, MessageSquare, Phone, Printer } from 'lucide-react'
+import { Send, User, Mail, MapPin, MessageSquare, Phone } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { fadeUp, fadeLeft, fadeRight, staggerContainer } from '../utils/animations'
 
@@ -107,11 +107,6 @@ export default function ContactForm() {
                   lines: [t('contact.phone_value')],
                 },
                 {
-                  icon: Printer,
-                  label: t('contact.fax'),
-                  lines: [t('contact.fax_value')],
-                },
-                {
                   icon: Mail,
                   label: t('contact.email'),
                   lines: [t('contact.info_email')],
@@ -128,7 +123,9 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-sm mb-1">{label}</div>
-                    {lines.map((line) => <div key={line} className="text-gray-400 text-sm">{line}</div>)}
+                    {lines.filter((line) => line?.trim()).map((line) => (
+                      <div key={line} className="text-gray-400 text-sm">{line}</div>
+                    ))}
                   </div>
                 </div>
               ))}
