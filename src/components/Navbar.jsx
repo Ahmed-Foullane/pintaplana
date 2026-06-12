@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
@@ -9,6 +9,13 @@ export default function Navbar() {
   const { pathname } = useLocation()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const navigate = useNavigate()
+
+  const handleLangChange = (lang) => {
+    i18n.changeLanguage(lang)
+  }
+
+  const currentLang = i18n.resolvedLanguage?.split('-')[0] || i18n.language?.split('-')[0] || 'fr'
 
   const navLinks = [
     { label: t('navbar.accueil'), to: '/' },
@@ -16,6 +23,7 @@ export default function Navbar() {
     { label: t('navbar.produits'), to: '/products' },
     { label: t('navbar.catalog'), to: '/catalog' },
     { label: t('navbar.references'), to: '/references' },
+    { label: t('navbar.blog', 'Blog'), to: '/blog' },
     { label: t('navbar.contact'), to: '/contact' },
   ]
 
@@ -98,8 +106,8 @@ export default function Navbar() {
                   <button
                     key={lang}
                     type="button"
-                    onClick={() => i18n.changeLanguage(lang)}
-                    className={`text-xs font-bold uppercase transition-colors cursor-pointer ${i18n.language === lang ? 'text-[#FFC107]' : 'text-gray-400 hover:text-white'}`}
+                    onClick={() => handleLangChange(lang)}
+                    className={`text-xs font-bold uppercase transition-colors cursor-pointer ${currentLang === lang ? 'text-[#FFC107]' : 'text-gray-400 hover:text-white'}`}
                   >
                     {lang}
                   </button>
@@ -183,8 +191,8 @@ export default function Navbar() {
                     <button
                       key={lang}
                       type="button"
-                      onClick={() => i18n.changeLanguage(lang)}
-                      className={`text-sm font-bold uppercase transition-colors cursor-pointer ${i18n.language === lang ? 'text-[#FFC107]' : 'text-gray-400 hover:text-white'}`}
+                      onClick={() => handleLangChange(lang)}
+                      className={`text-sm font-bold uppercase transition-colors cursor-pointer ${currentLang === lang ? 'text-[#FFC107]' : 'text-gray-400 hover:text-white'}`}
                     >
                       {lang}
                     </button>
