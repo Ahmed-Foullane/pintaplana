@@ -1,28 +1,35 @@
 import fs from 'fs';
 import path from 'path';
 
-// 1. Read environment variables manually to avoid needing dotenv or Vite
-function loadEnv() {
-  const envPath = path.resolve('.env.local');
-  if (!fs.existsSync(envPath)) {
-    console.warn('No .env.local found. Using .env as fallback.');
-    if (!fs.existsSync(path.resolve('.env'))) {
-      throw new Error('No .env or .env.local file found.');
+// 1. Read environment variables (from process.env in Vercel, or .env.local locally)
+let SUPABASE_URL = process.env.VITE_SUPABASE_URL;
+let ANON_KEY = process.env.VITE_SUPABASE_ANON_KEY;
+
+if (!SUPABASE_URL || !ANON_KEY) {
+  try {
+    const envPath = path.resolve('.env.local');
+    const fallbackPath = path.resolve('.env');
+    let envContent = '';
+    
+    if (fs.existsSync(envPath)) {
+      envContent = fs.readFileSync(envPath, 'utf-8');
+    } else if (fs.existsSync(fallbackPath)) {
+      envContent = fs.readFileSync(fallbackPath, 'utf-8');
     }
-    return fs.readFileSync(path.resolve('.env'), 'utf-8');
+
+    envContent.split('\n').forEach(line => {
+      const [key, ...rest] = line.split('=');
+      if (key && rest.length) {
+        const k = key.trim();
+        const v = rest.join('=').trim();
+        if (k === 'VITE_SUPABASE_URL') SUPABASE_URL = v;
+        if (k === 'VITE_SUPABASE_ANON_KEY') ANON_KEY = v;
+      }
+    });
+  } catch (err) {
+    // ignore
   }
-  return fs.readFileSync(envPath, 'utf-8');
 }
-
-const envContent = loadEnv();
-const env = {};
-envContent.split('\n').forEach(line => {
-  const [key, ...rest] = line.split('=');
-  if (key && rest.length) env[key.trim()] = rest.join('=').trim();
-});
-
-const SUPABASE_URL = env.VITE_SUPABASE_URL;
-const ANON_KEY = env.VITE_SUPABASE_ANON_KEY;
 
 if (!SUPABASE_URL || !ANON_KEY) {
   throw new Error('VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY is missing from environment variables.');
