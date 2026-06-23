@@ -14,6 +14,7 @@ import ContactPage from './pages/ContactPage'
 import CatalogPage from './pages/CatalogPage'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
+import NotFoundPage from './pages/NotFoundPage'
 import Loader from './components/Loader'
 
 export default function App() {
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="/catalog" element={<CatalogPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:lang/:slug" element={<BlogPostPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
         <Footer />

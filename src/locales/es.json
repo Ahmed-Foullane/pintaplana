@@ -143,5 +143,10 @@
   "blog": {
     "cta_title": "¿Interesado en nuestras soluciones de señalización?",
     "cta_desc": "Póngase en contacto con nuestros expertos para obtener un presupuesto gratuito y personalizado adaptado a sus necesidades en cualquier lugar de Marruecos."
+  },
+  "notfound": {
+    "title": "Página no encontrada",
+    "desc": "Lo sentimos, la página que busca no existe o ha sido trasladada.",
+    "back_home": "Volver al inicio"
   }
 }

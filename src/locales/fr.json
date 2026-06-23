@@ -143,5 +143,10 @@
   "blog": {
     "cta_title": "Intéressé par nos solutions de signalisation ?",
     "cta_desc": "Contactez nos experts pour obtenir un devis gratuit et personnalisé adapté à vos besoins partout au Maroc."
+  },
+  "notfound": {
+    "title": "Page non trouvée",
+    "desc": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+    "back_home": "Retour à l'accueil"
   }
 }

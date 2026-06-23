@@ -143,5 +143,10 @@
   "blog": {
     "cta_title": "Interested in our signage solutions?",
     "cta_desc": "Contact our experts to get a free, personalized quote tailored to your needs anywhere in Morocco."
+  },
+  "notfound": {
+    "title": "Page Not Found",
+    "desc": "Sorry, the page you are looking for does not exist or has been moved.",
+    "back_home": "Back to Home"
   }
 }
