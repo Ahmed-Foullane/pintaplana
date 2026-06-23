@@ -8,7 +8,7 @@ import { supabase } from '../lib/supabase'
 export default function BlogPostPage() {
   const { lang, slug } = useParams()
   const navigate = useNavigate()
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [post, setPost] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -142,6 +142,27 @@ export default function BlogPostPage() {
           className="prose prose-invert prose-lg max-w-none prose-headings:font-display prose-headings:font-bold prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-xl"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
+
+        {/* CTA Section */}
+        <div className="mt-12 p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-[#FFC107]/5 border border-primary/20 flex flex-col md:flex-row items-center justify-between gap-6 hover:border-primary/40 transition-all duration-300">
+          <div>
+            <h3 className="text-xl font-bold mb-2 font-display text-white">
+              {t('blog.cta_title', 'Intéressé par nos solutions de signalisation ?')}
+            </h3>
+            <p className="text-gray-400 text-sm max-w-xl">
+              {t('blog.cta_desc', 'Contactez nos experts pour obtenir un devis gratuit et personnalisé adapté à vos besoins partout au Maroc.')}
+            </p>
+          </div>
+          <Link
+            to="/contact"
+            className="whitespace-nowrap px-6 py-3 bg-primary hover:bg-[#4CAF50] text-white font-bold text-sm tracking-wider rounded-lg transition-all duration-200 shadow-lg shadow-primary/20 active:scale-95 uppercase flex items-center gap-2 group"
+          >
+            {t('products.quote_btn', 'Demander un devis')}
+            <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </Link>
+        </div>
 
         {post.tags && post.tags.length > 0 && (
           <div className="mt-16 pt-8 border-t border-white/10">
